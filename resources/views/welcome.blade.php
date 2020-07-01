@@ -85,7 +85,7 @@
         <div class="sidenav">
          <div class="login-main-text">
             <h3>CBN<br> Cerveceria Boliviana Nacional</h3>
-            <p>Sistema de consulta de deuda.
+            <p>Sistema de consulta de deuda...
          </div>
         </div>
       <div class="main">
