@@ -1,3 +1,4 @@
+          <div class="table-responsive">
             @if($flag==1)
 
             <table class="table table-striped table table-hover table-sm" id="datatable1">
@@ -28,3 +29,4 @@
             @else
               El Codigo de cliente no corresponde al cliente seleccionado.
             @endif
+            </div> 

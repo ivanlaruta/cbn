@@ -22,9 +22,16 @@
 
             .sidenav {
                 height: 100%;
+                background: url({{url('/images/cbn-logo.png')}});
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: bottom;
+                background-size: 450px;
+                
+
                 background-color: #000;
                 overflow-x: hidden;
-                padding-top: 20px;
+                padding-top: 0px;
             }
 
 
@@ -62,8 +69,8 @@
             }
 
             .login-main-text{
-                margin-top: 20%;
-                padding: 60px;
+                margin-top: 15%;
+                padding: 0px;
                 color: #fff;
             }
 
@@ -84,8 +91,13 @@
     <body>
         <div class="sidenav">
          <div class="login-main-text">
-            <h3>CBN<br> Cerveceria Boliviana Nacional</h3>
-            <p>Sistema de consulta de deuda...
+            <div class="col-md-6" align="center">
+          <img src="{{url('/images/cbn.png')}}" alt="" style="width:250px;height:110px;">
+              <p>Sistema de consulta de deuda
+              <br>CD El Alto
+              </p>
+            </div>
+            
          </div>
         </div>
       <div class="main">
